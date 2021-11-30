@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas</title>
+    <script src="main.js"></script>
+    <script src="estatistica.js"></script>
+    <link rel="stylesheet" href="Style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+  <style>
+    p{
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+  
+                .table-editable {
+                  position: relative;
+
+            
+                }
+
+                .table-remove {
+                  color: #700;
+                  cursor: pointer;
+
+                }
+
+                .table-up, .table-down {
+                  color: #007;
+                  cursor: pointer;
+
+                }
+
+                .table-add {
+                  color: #070;
+                  cursor: pointer;
+                  position: absolute;
+                  top: 8px;
+                  right: 0;
+                }
+                
+                .button{
+                  text-align: center;
+                }
+ 
+  </style>
+  </head>
+  <body>
+      <header>
+          <h2>
+              <img src="Img/EscudosDerby.jpg" style="float: left; " > <br> <br> 
+          </h2>
+      </header>
+      
+      <div class="container">
+      <h1>Escalação United</h1>
+
+      <div id="table" class="table-editable">
+        <span class="table-add glyphicon glyphicon-plus"></span>
+        <table class="table">
+          <tr>
+            <th>GL</th>
+            <th>LD</th>
+            <th>ZG</th>
+            <th>ZG</th>
+            <th>LE</th>
+            <th>Vol</th>
+            <th>Vol</th>
+            <th>Pd</th>
+            <th>Pe</th>
+            <th>MC</th>
+            <th>CA</th>
+          </tr>
+          <tr>
+            <td contenteditable="false">De Gea</td>
+            <td contenteditable="false">Wan-Bisaka</td>
+            <td contenteditable="false">Varane</td>
+            <td contenteditable="false">Maguire</td>
+            <td contenteditable="false">Luke Shaw</td>
+            <td contenteditable="false">Fred</td>
+            <td contenteditable="false">Pogba</td>
+            <td contenteditable="false">Sancho</td>
+            <td contenteditable="false">Rashford</td>
+            <td contenteditable="false">B.Fernandes</td>
+            <td contenteditable="false">C.Ronaldo</td>
+            <td>
+              
+            </td>
+            <td>
+              <span class="table-up glyphicon glyphicon-arrow-up"></span>
+              <span class="table-down glyphicon glyphicon-arrow-down"></span>
+            </td>
+          </tr>
+          
+        </table>
+      </div>
+    </div>
+
+    <div class="container">
+    <h1>Escalação City</h1>
+
+    <div id="table" class="table-editable">
+      <span class="table-add glyphicon glyphicon-plus"></span>
+      <table class="table">
+        <tr>
+          <th>GL</th>
+          <th>LD</th>
+          <th>ZG</th>
+          <th>ZG</th>
+          <th>LE</th>
+          <th>MC</th>
+          <th>MC</th>
+          <th>MC</th>
+          <th>PE</th>
+          <th>CA</th>
+          <th>PD</th>
+        </tr>
+        <tr>
+          <td contenteditable="false">Ederson</td>
+          <td contenteditable="false">Walker</td>
+          <td contenteditable="false">Dias</td>
+          <td contenteditable="false">Laporte</td>
+          <td contenteditable="false">João Cancelo</td>
+          <td contenteditable="false">Gundogan</td>
+          <td contenteditable="false">Rodri</td>
+          <td contenteditable="false">De Bruyne</td>
+          <td contenteditable="false">Grealish</td>
+          <td contenteditable="false">Sterling</td>
+          <td contenteditable="false">Mahrez</td>
+          <td>
+          
+          </td>
+          <td>
+            <span class="table-up glyphicon glyphicon-arrow-up"></span>
+            <span class="table-down glyphicon glyphicon-arrow-down"></span>
+          </td>
+        </tr>
+        
+      </table>
+    </div>
+  </div>
+  <div class="container">
+      <h1>Estatísticas da partida</h1>
+      <div id="table" class="table-editable">
+        <table class="table">
+          <tr>
+            <th>Gols</th>
+            <th>Impedimentos</th>
+            <th>Faltas</th>
+            <th>Cartões A</th>
+            <th>Cartões V</th>
+          </tr>
+            <div id="container-produtos">
+              <tr id="produto-template">
+                  <div id="produto">
+                    <td><input type="text" placeholder="Gols" id="gols"> <span></span></td>
+                    <td><input type="text" placeholder="Impedimentos" id="impedimentos"> <span></span></td>
+                    <td><input type="text" placeholder="Faltas" id="faltas"> <span></span></td>
+                    <td><input type="text" placeholder="Cartões Amarelos" id="cartaoamarelo"> <span></span></td>
+                    <td><input type="text" placeholder="Cartões Vermelhos" id="cartaovermelho"> <span></span></td> 
+                  </div>                
+                </tr>                 
+            </div>                  
+        </table>
+        <div class="button" >
+          <input type="submit" value="Adicionar" onclick="adicionar()">           
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+<!--<form>
+  <input type="text" placeholder="Gols" class="inputs">
+  <input type="text" placeholder="Impedimentos" class="inputs">
+  <input type="text" placeholder="Faltas" class="inputs">
+  <input type="text" placeholder="Cartões Amarelos" class="inputs">
+  <input type="text" placeholder="Cartões Vermelhos" class="inputs"> 
+</form>-->
