@@ -37,12 +37,12 @@ namespace Futebol
                 .AllowAnyHeader());
             });
 
-            services.AddDbContext<FutebolContext>(opt =>
-               opt.UseInMemoryDatabase("Futebol"));
+            //services.AddDbContext<FutebolContext>(opt =>
+            //   opt.UseInMemoryDatabase("Futebol"));
 
 
-            /*services.AddDbContext<FutebolContext>(options =>
-              options.UseNpgsql(Configuration.GetConnectionString("FutebolDb")));*/
+            services.AddDbContext<FutebolContext>(options =>
+              options.UseNpgsql(Configuration.GetConnectionString("FutebolDb")));
 
             services.AddControllersWithViews()
                    .AddNewtonsoftJson(options =>

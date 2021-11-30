@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oRxWV7CiTaZ+7sUOrmGOdsMj/ngLkyW1kT135vUy/tRZcmf/zjTXQ+1R2Te9EjBoSxfH/kGNcP/AC99dzAEJPA==",
+  "dgSpecHash": "Of5ATqBr5zolT83S6K3W5LVRTzGlS/DkITlzjPEWxECDzRtv9zX1utepOwunAREalo0/NIhWTk8Ov3x17BYBZA==",
   "success": true,
-  "projectFilePath": "D:\\IGOR\\Desktop\\TDEFutebol\\back-end\\Futebol.csproj",
+  "projectFilePath": "D:\\IGOR\\Desktop\\Futebol\\back-end\\Futebol.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IGOR\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\IGOR\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

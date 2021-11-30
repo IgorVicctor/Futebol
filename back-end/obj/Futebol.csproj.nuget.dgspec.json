@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IGOR\\Desktop\\TDEFutebol\\back-end\\Futebol.csproj": {}
+    "D:\\IGOR\\Desktop\\Futebol\\back-end\\Futebol.csproj": {}
   },
   "projects": {
-    "D:\\IGOR\\Desktop\\TDEFutebol\\back-end\\Futebol.csproj": {
+    "D:\\IGOR\\Desktop\\Futebol\\back-end\\Futebol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IGOR\\Desktop\\TDEFutebol\\back-end\\Futebol.csproj",
+        "projectUniqueName": "D:\\IGOR\\Desktop\\Futebol\\back-end\\Futebol.csproj",
         "projectName": "Futebol",
-        "projectPath": "D:\\IGOR\\Desktop\\TDEFutebol\\back-end\\Futebol.csproj",
+        "projectPath": "D:\\IGOR\\Desktop\\Futebol\\back-end\\Futebol.csproj",
         "packagesPath": "C:\\Users\\IGOR\\.nuget\\packages\\",
-        "outputPath": "D:\\IGOR\\Desktop\\TDEFutebol\\back-end\\obj\\",
+        "outputPath": "D:\\IGOR\\Desktop\\Futebol\\back-end\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IGOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
