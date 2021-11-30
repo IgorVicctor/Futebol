@@ -34,29 +34,3 @@ function adicionar() {
         alert('As estatísticas foram adicionadas!')
     }
 
-        /*var gols = document.getElementById('gols').value
-    var impedimentos = document.getElementById("impedimentos").value
-    var faltas = document.getElementById("faltas").value
-    var cartaoamarelo = document.getElementById("cartaoamarelo").value
-    var cartaovermelho = document.getElementById("cartaovermelho").value
-
-
-fetch('https://localhost:5001/futebol/arbitragens', {
-
-
-    method: 'POST',
-    headers:{
-            "Content-Type":"application/json;"
-        },
-    body: JSON.stringify({
-        numGols: gols,
-        numCartAm: impedimentos,
-        numCartVer: faltas,
-        numFaltas: cartaoamarelo,
-        numImpedimentos: cartaovermelho
-    })
-}).then(response => {
-    return response.json()    
-})
-    .then(data => console.log(data))
-*/
